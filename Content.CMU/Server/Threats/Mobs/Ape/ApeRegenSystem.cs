@@ -23,7 +23,7 @@ public sealed partial class ApeRegenSystem : EntitySystem
     [Dependency] private IGameTiming _timing = default!;
     private static readonly TimeSpan UpdateInterval = TimeSpan.FromSeconds(1);
 
-    private const float HealFractionPerSecond = 0.1f / 60f;
+    private const float HealFractionPerSecond = 0.2.5f / 60f;
 
     private TimeSpan _nextUpdate = TimeSpan.Zero;
 
