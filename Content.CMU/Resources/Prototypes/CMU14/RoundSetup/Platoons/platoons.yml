@@ -1002,6 +1002,10 @@
   - AU14VehicleCivVan
   - AU14VehicleCivEMSAmbulance
   - VehicleBlackfootTransport
+  - VehicleBlackfootDoorGunVariant
+  - VehicleHumvee
+  - VehicleAPC
+  - VehicleAev
   name: CMB Crisis Intervention
   lorePrimer: AU14PrimerPlatoonCMBCIU
   Allegiance: UA
@@ -1009,6 +1013,7 @@
     - English
   reqlist: CMBCIUCargoCatalog
   vendorSet: CMBCIU
+  
   platoonPatch: /Textures/CMU14/Clothing/Patches/ua_patch.rsi/icon.png
   chevronOverrides:
     AU14JobPlatCoBase:
