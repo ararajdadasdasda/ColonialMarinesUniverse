@@ -57,15 +57,12 @@
     - CMU14ActionXenoPathogenPlantWeeds
     - CMU14ActionXenoPathogenChooseStructure
     - CMU14ActionXenoPathogenSecreteStructure
-    - CMU14ActionXenoPathogenParalyzingSlash
-    - CMU14ActionXenoPathogenDigTunnel
     - CMU14ActionXenoPathogenDevolve
-    - CMU14ActionXenoPathogenOrderConstruction
     - CMU14ActionXenoPathogenRegurgitate
   - type: TunnelRenamer
   - type: XenoBurrow
   - type: XenoConstruction
-    buildDelay: 1
+    buildDelay: 3
     canBuild:
     - CMU14XenoMyceliumWall
     - CMU14XenoMyceliumMembrane
@@ -85,7 +82,7 @@
         Piercing: 20
   - type: XenoLeap
     delay: 0
-    range: 4
+    range: 3
     moveDelayTime: 0
     knockdownTime: 0
     leapSound: /Audio/CMU14/Xeno/Pathogen/pathogen_pounce2.ogg
